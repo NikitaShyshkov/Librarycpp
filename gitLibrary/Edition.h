@@ -14,10 +14,10 @@ public:
 
 	void setName(string name);
 	void setAuthor(string author);
-	void setYear(string year);
+	void setYear(int year);
 
 	string getName()const;
-	string getAuthor()const;;
+	string getAuthor()const;
 	int getYear()const;
 
 	virtual void showInfo()const = 0;
