@@ -1,5 +1,7 @@
 #pragma once
 #include "Edition.h"
+using std::cout;
+using std::endl;
 class Book : public Edition
 {
 protected:
