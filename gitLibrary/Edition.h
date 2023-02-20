@@ -21,5 +21,6 @@ public:
 	int getYear()const;
 
 	virtual void showInfo()const = 0;
+	virtual string type()const = 0;
 };
 
