@@ -71,6 +71,25 @@ void Library::findByYear(int year) const
     }
 }
 
+void Library::addArticleForMagazine(int id, string article)
+{
+    for (int i = 0; i < library.size(); i++)
+    {
+        if (i == id)
+        {
+            if (library[i]->type() != "Magazine")
+            {
+                cout << "Object with this id is not magazine!" << endl;
+                return;
+            }
+            else
+            {
+                ((Magazine*)library[i])->addArticle(article);
+            }
+        }
+    }
+}
+
 void Library::showList() const
 {
     for (int i = 0; i < library.size(); i++)

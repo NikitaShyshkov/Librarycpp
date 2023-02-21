@@ -1,9 +1,4 @@
-﻿  Library.cpp
-D:\c++ proj\hwGIToop\gitLibrary\gitLibrary\Library.cpp(30,23): warning C4018: '<': signed/unsigned mismatch
-D:\c++ proj\hwGIToop\gitLibrary\gitLibrary\Library.cpp(43,23): warning C4018: '<': signed/unsigned mismatch
-D:\c++ proj\hwGIToop\gitLibrary\gitLibrary\Library.cpp(54,23): warning C4018: '<': signed/unsigned mismatch
-D:\c++ proj\hwGIToop\gitLibrary\gitLibrary\Library.cpp(65,23): warning C4018: '<': signed/unsigned mismatch
-D:\c++ proj\hwGIToop\gitLibrary\gitLibrary\Library.cpp(76,23): warning C4018: '<': signed/unsigned mismatch
+﻿  Edition.cpp
   Source.cpp
   Generating Code...
   gitLibrary.vcxproj -> D:\c++ proj\hwGIToop\gitLibrary\Debug\gitLibrary.exe

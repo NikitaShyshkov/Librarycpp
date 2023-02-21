@@ -9,24 +9,17 @@ Edition::Edition()
 
 Edition::Edition(string name, string author, int year)
 {
-	try
+	if (name.empty())
 	{
-		if (name.empty())
-		{
-			throw new BookException(name);
-		}
-		if (author.empty())
-		{
-			throw new BookException(name);
-		}
-		if (year <= 0)
-		{
-			throw new EditionYearException(name, year);
-		}
+		throw new BookException(name);
 	}
-	catch (const PublicationException* obj)
+	if (author.empty())
 	{
-		std::cout << obj->showMessage() << std::endl;
+		throw new BookException(name);
+	}
+	if (year <= 0)
+	{
+		throw new EditionYearException(name, year);
 	}
 	this->name = name;
 	this->author = author;

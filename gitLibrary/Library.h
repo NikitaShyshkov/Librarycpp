@@ -21,6 +21,8 @@ public:
 	void findByAuthor(string author)const;
 	void findByYear(int year)const;
 
+	void addArticleForMagazine(int id, string article);
+
 	void showList()const;
 };
 

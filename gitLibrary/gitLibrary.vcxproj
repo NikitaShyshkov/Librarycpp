@@ -143,6 +143,7 @@
     <ClCompile Include="Edition.cpp" />
     <ClCompile Include="Library.cpp" />
     <ClCompile Include="Magazine.cpp" />
+    <ClCompile Include="PublicationException.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +151,7 @@
     <ClInclude Include="Edition.h" />
     <ClInclude Include="Library.h" />
     <ClInclude Include="Magazine.h" />
+    <ClInclude Include="PublicationException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

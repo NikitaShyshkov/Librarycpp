@@ -30,5 +30,5 @@ EditionYearException::EditionYearException(string name, int year):PublicationExc
 
 string EditionYearException::showMessage() const
 {
-	return "Exception(" + name + "): Unable to create publication due to invalid publication year: " + year;
+	return "Exception(" + name + "): Unable to create publication due to invalid publication year: " + std::to_string(year);
 }

@@ -17,6 +17,7 @@ void Magazine::showArticles() const
 {
 	for (int i = 0; i < articles.size(); i++)
 	{
+        cout << "- ";
 		cout << articles[i] << endl;
 	}
 }
