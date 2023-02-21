@@ -10,6 +10,10 @@ Magazine::Magazine(string name, string author, int year):Edition(name, author, y
 
 void Magazine::addArticle(string article)
 {
+    if (article.empty())
+    {
+        throw new BookException(name);
+    }
     this->articles.push_back(article);
 }
 

@@ -18,6 +18,14 @@ int main()
 	a.addArticleForMagazine(0, "ZSU TOP");
 	try
 	{
+		a.addArticleForMagazine(0, "");//ошибка
+	}
+	catch (const PublicationException* obj)
+	{
+		cout << obj->showMessage() << endl;
+	}
+	try
+	{
 		a.add(new Book("", "Microsoft", 2002, "This book good for noobs"));//ошибка
 	}
 	catch (const PublicationException* obj)

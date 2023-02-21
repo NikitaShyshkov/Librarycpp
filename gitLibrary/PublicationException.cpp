@@ -20,7 +20,7 @@ BookException::BookException(string name):PublicationException(name)
 
 string BookException::showMessage() const
 {
-	return "Exception(" + name + "): Wrong name or author";
+	return "Exception(" + name + "): Wrong name, author or article";
 }
 
 EditionYearException::EditionYearException(string name, int year):PublicationException(name)
