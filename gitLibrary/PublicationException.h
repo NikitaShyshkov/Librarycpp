@@ -21,3 +21,14 @@ public:
 
 	string showMessage()const override;
 };
+
+class EditionYearException : public PublicationException
+{
+protected:
+	int year;
+public:
+	//по умолчанию конструктора не будет
+	EditionYearException(string name, int year);
+
+	string showMessage()const override;
+};

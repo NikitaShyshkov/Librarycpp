@@ -20,5 +20,15 @@ BookException::BookException(string name):PublicationException(name)
 
 string BookException::showMessage() const
 {
-	return "Exception(" + name + "): wrong name or author";
+	return "Exception(" + name + "): Wrong name or author";
+}
+
+EditionYearException::EditionYearException(string name, int year):PublicationException(name)
+{
+	this->year = year;
+}
+
+string EditionYearException::showMessage() const
+{
+	return "Exception(" + name + "): Unable to create publication due to invalid publication year: " + year;
 }
