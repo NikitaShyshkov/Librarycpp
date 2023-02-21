@@ -12,3 +12,12 @@ public:
 
 	virtual string showMessage()const = 0;
 };
+
+class BookException : public PublicationException
+{
+public:
+	BookException();
+	BookException(string name);
+
+	string showMessage()const override;
+};
