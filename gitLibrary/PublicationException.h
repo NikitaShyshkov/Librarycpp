@@ -12,4 +12,3 @@ public:
 
 	virtual string showMessage()const = 0;
 };
-
